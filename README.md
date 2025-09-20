@@ -20,4 +20,4 @@ This app helps users **create professional, ATS-friendly resumes** using customi
 ## 🔧 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/resume_builder_ai.git
+   git clone https://github.com/yaseenkhan121/resume_builder_ai.git
