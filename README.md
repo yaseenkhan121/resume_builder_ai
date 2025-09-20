@@ -11,9 +11,6 @@ This app helps users **create professional, ATS-friendly resumes** using customi
 - 🗄️ Firestore integration for storing resumes and analysis  
 - 🎨 Clean and modern UI with Flutter  
 
-## 📸 Screenshots
-*(Add screenshots of your app here to showcase templates and analysis screen)*  
-
 ## 🛠️ Tech Stack
 - **Flutter** (Frontend)  
 - **Firebase** (Auth & Firestore)  
