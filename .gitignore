@@ -1,4 +1,6 @@
+# --------------------------------
 # Miscellaneous
+# --------------------------------
 *.class
 *.log
 *.pyc
@@ -12,34 +14,86 @@
 .swiftpm/
 migrate_working_dir/
 
-# IntelliJ related
+# --------------------------------
+# IntelliJ / Android Studio
+# --------------------------------
 *.iml
 *.ipr
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
+# --------------------------------
+# VS Code
+# --------------------------------
+# Keep if you want settings in GitHub, else uncomment:
 #.vscode/
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# --------------------------------
+# Flutter / Dart / Pub
+# --------------------------------
 .dart_tool/
+.flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
 .pub/
-/build/
-/coverage/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
 
-# Symbolication related
+# --------------------------------
+# iOS
+# --------------------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# --------------------------------
+# Android
+# --------------------------------
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug
+android/app/profile
+android/app/release
+android/captures/
+
+# Gradle build output
+android/build/
+
+# --------------------------------
+# Reports
+# --------------------------------
+/android/build/reports/
+
+# --------------------------------
+# Windows
+# --------------------------------
+windows/runner/Debug/
+windows/runner/Release/
+windows/.vs/
+
+# --------------------------------
+# Linux
+# --------------------------------
+linux/runner/Debug/
+linux/runner/Release/
+
+# --------------------------------
+# macOS
+# --------------------------------
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Pods/
+macos/build/
+
+# --------------------------------
+# Symbolication / Obfuscation
+# --------------------------------
 app.*.symbols
-
-# Obfuscation related
 app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
