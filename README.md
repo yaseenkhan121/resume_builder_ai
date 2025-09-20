@@ -14,8 +14,7 @@ This app helps users **create professional, ATS-friendly resumes** using customi
 ## 🛠️ Tech Stack
 - **Flutter** (Frontend)  
 - **Firebase** (Auth & Firestore)  
-- **OpenAI API** (Resume analysis & improvements)  
--  
+- **OpenAI API** (Resume analysis & improvements)    
 
 ## 🔧 Getting Started
 1. Clone the repository:
