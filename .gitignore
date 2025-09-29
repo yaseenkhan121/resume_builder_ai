@@ -42,6 +42,10 @@ coverage/
 **/doc/api/
 **/ios/Flutter/.last_build_id
 
+# Environment files
+.env
+.env.*  # optional, ignore any environment variants
+
 # --------------------------------
 # iOS
 # --------------------------------
